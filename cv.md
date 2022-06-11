@@ -5,7 +5,7 @@ _Email:_ irina.peslyak.1864@gmail.com;
 _GitHub:_ irina864;
 _Telegram_ Ri864.
 ## Short information
-This year I graduated from higher education and decided to change the field of activity, since my profession does not excite me. I am glad that learning front-end development does not cause me overload and negative emotions, despite the large amount of information.
+Hi! This year I decided to change my field of activity to web development. I wish to be a full-stack JavaScript developer,  I'm currently studying Frontend Development.
 _My strengths:_
 * meticulousness;
 * attentiveness;
@@ -17,4 +17,10 @@ _My strengths:_
 * HTML5;
 * CSS3.
 ## Education
-BNTU - Certification, metrology and standardization engineer
+Belarusian National Technical University
+_Certification, metrology and standardization engineer_
+## Languages
+* ENGLISH - Intermediate
+* RUSSIAN - Native
+## Courses
+RS Schools «JavaScript/Front-end. Stage 0»
