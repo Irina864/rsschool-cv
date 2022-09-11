@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cv</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Poiret+One&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Poiret+One&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -23,6 +23,7 @@
           <li><a class="nav-link" href="#languages">Languages</a></li>
           <li><a class="nav-link" href="#courses">Courses</a></li>
           <li><a class="nav-link" href="#code">Code example</a></li>
+          <li><a class="nav-link" href="#project">Projects</a></li>
         </ul>
       </nav>
     </div>
@@ -46,7 +47,8 @@
       <section class="section" id="info">
         <h2>Summary</h2>
         <p>
-          Hi! This year I decided to change my field of activity to web development. I wish to be a full-stack JavaScript developer,  I'm currently studying Frontend Development.
+          Hi! This year I decided to change my field of activity to web development. I wish to be a full-stack
+          JavaScript developer, I'm currently studying Frontend Development.
         </p>
         <p>
           My strengths:
@@ -57,7 +59,7 @@
           <li>perseverance</li>
           <li>thoroughness</li>
           <li>stress tolerance</li>
-        </ul>      
+        </ul>
       </section>
       <section class="section" id="skills">
         <h2>Skills</h2>
@@ -92,11 +94,26 @@
       <section class="section" id="code">
         <h2>Code example</h2>
         <code>
-           &lt;<span>h2</span>&gt; Education &lt;<span>/h2</span>&gt; <br>
-           &lt;<span>p</span>&gt; Belarusian National Technical University &lt;<span>/p</span>&gt;
+           function rentalCarCost(d) { <br>
+            let rentalCarCost = d * 40; <br>
+            let cost = d &lt; 3 ? rentalCarCost :  (rentalCarCost - 20); <br>
+            let cost1 = d &gt; 6 ? (rentalCarCost - 50) : cost; <br>
+            return cost1 ;<br>
+            } 
         </code>
       </section>
     </div>
+    <section class="section" id="project">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <a href="https://rolling-scopes-school.github.io/irina864-JSFEPRESCHOOL2022Q2/travel/" target="_blank">Travel</a>
+        </li>
+        <li>
+          <a href="https://rolling-scopes-school.github.io/irina864-JSFEPRESCHOOL2022Q2/momentum/" target="_blank">Momentum</a>
+        </li>
+      </ul>
+    </section>
   </main>
   <footer>
     <div class="container foot">
@@ -109,9 +126,9 @@
       <div>
         <a href="https://rs.school/js/" target="_blank">
           <img class="rss" src="./assets/img/rs_school_js.svg" alt="Логотип RS School">
-        </a>        
+        </a>
       </div>
-    </div>    
+    </div>
   </footer>
 </body>
 </html>
